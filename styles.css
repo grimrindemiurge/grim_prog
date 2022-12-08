@@ -59,6 +59,7 @@ hr {
 .body-container {
     display: flex;
     margin: 2rem auto;
+    margin: 2.25rem auto;
     max-width: 1240px;
     min-height: 100vh;
 }
@@ -83,12 +84,14 @@ hr {
     align-items: center;
 
     background-color: #101415;
+    background-color: #141517;
+    background-color: #111113;
     box-shadow: 0 2px 8px rgb(33 34 42 / 50%);
     backdrop-filter: saturate(180%) blur(20px);
     border-radius: 400px;
     padding: 0.425rem 1.25rem;
     position: sticky;
-    top: 2rem;
+    top: 2.25rem;
     z-index: 9999;
 }
 
@@ -108,7 +111,7 @@ hr {
     display: flex;
     align-items: center;
 
-    background-color: rgb(55 56 73 / 50%);
+    background-color: rgb(55 55 73 / 50%);
     border-radius: 100px;
     color: #868b9b;
     cursor: pointer;
@@ -117,7 +120,7 @@ hr {
 }
 
 .user-control__user:hover {
-    background-color: rgb(68 72 89 / 60%);
+    background-color: rgb(68 68 89 / 60%);
 }
 
 .user-control__user:hover .user-control__username  {
@@ -158,14 +161,16 @@ hr {
 .content-table-wrap-header {
     background-color: rgb(44 47 53 / 90%);
     background-color: rgb(44 45 53 / 80%);
+    background-color: rgba(44, 47, 53, 0.7);
     color: rgba(187, 190, 200, 0.9);
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     font-size: 14px;
+    font-size: 13.5px;
     font-weight: 600;
     height: auto;
     letter-spacing: .375px;
-    padding: 18px 24px 12px;
+    padding: 24px 24px 16px;
     text-transform: capitalize;
     top: 0;
 }
@@ -173,6 +178,7 @@ hr {
 .content-table-wrap-footer {
     background-color: rgb(44 47 53 / 90%);
     background-color: rgb(44 45 53 / 80%);
+    background-color: rgba(44, 47, 53, 0.7);
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     height: 26px;
@@ -217,23 +223,27 @@ hr {
 .content-table {
     background-color: rgb(44 47 53 / 90%);
     background-color: rgb(44 45 53 / 80%);
-    padding: 0rem 1.25rem;
+    background-color: rgba(44, 47, 53, 0.7);
+    padding: 0 18px;
     max-height: 71.5vh;
     overflow: auto;
 }
 
 .content-table__header {
     color: #9aa0b0;
+    color: #a6adc1;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    padding-top: 6px;
+    padding: 6px 4px 0;
+    margin-bottom: 22px;
+    padding: 4px 4px 0;
     opacity: .5;
 }
 
 .content-table__header-title {
     margin: 0;
-    font-size: 14px;
+    font-size: 13.5px;
     letter-spacing: .5px;
 }
 
@@ -246,30 +256,36 @@ hr {
 
 .content-table-list {
     margin-bottom: 20px;
+    /* margin-bottom: 18px; */
 }
 
 .content-table-list:last-child {
     margin-bottom: 0;
 }
 
+.content-table-list__items a {
+    text-decoration: none;
+}
+
 .content-table-list__header {
     background-color: rgb(28 31 35 / 68%);
     background-color: rgb(28 30 35 / 58%);
-    background-color: rgb(28 32 35 / 50%);
+    background-color: rgb(28 31 35 / 50%);
+    background-color: rgb(28 31035 / 60%);
     border-radius: 30px;
-    cursor: pointer;
-    margin-bottom: 10px;
-    padding: 6px 12px;
+    /* cursor: pointer; */
+    margin-bottom: 8px;
+    padding: 5px 16px;
 }
 
 .content-table-list__header:hover {
-    background-color: rgb(28 28 35 / 80%);
+    /* background-color: rgb(28 28 35 / 80%);
     background-color: rgb(28 31 35 / 60%);
-    background-color: rgb(28 31 35 / 65%);
+    background-color: rgb(28 31 35 / 65%); */
 }
 
 .content-table-list__header:hover h4 {
-    color: rgb(165 202 245 / 90%);
+    /* color: rgb(165 202 245 / 90%); */
 }
 
 .content-table-list__header h4 {
@@ -295,19 +311,16 @@ hr {
 .content-table-list__item:hover,
 .content-table-list__item:active {
     background-color: rgb(60 63 73 / 95%);
+    background-color: rgb(60 62 73 / 100%);
     color: #ccd0d8;
-}
-
-.content-table-list__item:hover .content-table-list__item-count,
-.content-table-list__item:active .content-table-list__item-count {
-    color: #bcc0cb;
+    color: rgb(165 202 245 / 90%);
 }
 
 .content-table-list__item-count {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #838999;
+
     background-color: transparent;
     border-radius: 5px;
     font-size: 11px;
@@ -317,7 +330,7 @@ hr {
 }
 
 .content-table-list__item-content {
-    width: 87%;
+    /* width: 88%; */
 }
 
 
@@ -330,7 +343,7 @@ hr {
     background-size: cover;
     border-radius: 24px;
     width: 100%;
-    height: 150px;
+    height: 140px;
     padding: .75rem 1rem;
 }
 
@@ -432,10 +445,99 @@ hr {
     display: flex;
 }
 
+.main-content-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    margin-bottom: 29px;
+}
+
+.main-content-menu .main-content-menu__link {
+    margin: 0 .625rem;
+    width: 100%;
+    text-decoration: none;
+}
+
+.main-content-menu .main-content-menu__link:first-child {
+    margin-left: 0;
+}
+
+.main-content-menu .main-content-menu__link:last-child {
+    margin-right: 0;
+}
+
+.main-content-menu__item {
+    background-color: rgb(48 50 58);
+    background-color: rgba(44, 47, 53, 0.7);
+    color: #787a88;
+    background-color: rgba(44, 47, 53, 1);
+    color: #848694;
+    cursor: pointer;
+    border-radius: 20px;
+    display: block;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: .4px;
+    padding: 6px 12px;
+    text-align: center;
+    transition: all .25s ease;
+}
+
+.main-content-menu__item:hover {
+    background-color: rgb(46 48 56);
+    background-color: rgba(44, 47, 53, 1);
+    background-color: rgb(39, 42, 48);
+    background-color: #24272b;
+    background-color: #24272b;
+
+    background-color: #232529;
+    /* background-color: #1e2023; */
+    color: #d2d6e0;
+}
+
+.main-content-menu__item.active {
+    background-color: #8bb8ef;
+    background-color: rgba(139, 180, 239, 0.8);
+    color: white;
+    color: #31333b;
+    color: #222328;
+    background-color: rgb(87, 89, 103);
+    background-color: rgb(91, 93, 108);
+    background-color: rgba(91, 92, 108, 0.6);
+    background-color: rgba(91, 92, 108, 0.5);
+    color: rgb(229 232 239 / 70%);
+    color: #9c9dab;
+    color: #a5a6b4;
+    color: #b8b9c8;
+    color: #d2d6e0;
+    color: rgba(210, 214, 224, 0.9);
+    /* color: #8bb8ef; */
+    /* color: rgba(139, 180, 239, 0.8); */
+}
+
+.main-content-menu__item.active:hover {
+    cursor: auto;
+    /* background-color: #7ca0e4;
+    background-color: #8bb8ef;
+    color: #26282e;
+    color: #222429;
+    background-color: rgb(105, 107, 124);
+    background-color: rgba(105, 107, 124, 0.9);
+    background-color: rgba(105, 106, 124, 0.8);
+    background-color: rgba(91, 92, 108, 1);
+    color: rgb(229 232 239 / 80%);
+    color: #d2d6e0; */
+}
+
+.main-content-menu__item i {
+    padding-right: 4px;
+    /* font-size: 14px; */
+}
+
 .articles {
     width: 78%;
     margin-right: 3.5rem;
-    padding-top: 0.25rem;
+    /* padding-top: 0.25rem; */
 }
 
 article {
@@ -469,14 +571,14 @@ article {
 article img {
     border-radius: 12px;
     margin-bottom: 24px;
-    opacity: .85;
+    opacity: .8;
     width: 100%;
 }
 
 article iframe {
     border-radius: 12px;
     margin-bottom: 18px;
-    opacity: .9;
+    opacity: .6;
 }
 
 article iframe:last-child {
@@ -485,7 +587,8 @@ article iframe:last-child {
 
 .article-heading {
     border-bottom: 3px solid rgb(40 44 55 / 40%);
-    border-bottom: 2.5px solid rgb(40 46 55 / 45%);
+    border-bottom: 3px solid rgba(38, 42, 44, 0.4);
+    /* border-bottom: 2.5px solid rgb(40 46 55 / 40%); */
     margin-bottom: 20px;
     padding-bottom: 20px;
 }
@@ -600,7 +703,7 @@ article iframe:last-child {
 
 .sidebar-container-wrapper {
     position: sticky;
-    top: 2rem;
+    top: 2.25rem;
 }
 
 .server-members-container {
@@ -648,12 +751,13 @@ article iframe:last-child {
     margin-right: 6px;
     margin-top: 3px;
     margin-bottom: 3px;
+    padding: 1.25px 6px;
     padding: 1px 6px;
     transition: all .1s ease;
 }
 
 .server-member:hover {
-    background-color: rgba(66, 69, 77, 0.9);
+    background-color: rgba(66, 67, 77, 0.9);
 }
 
 .server-member:hover .server-member__name {
@@ -677,6 +781,7 @@ article iframe:last-child {
     color: #838999;
     font-size: 12.5px;
     letter-spacing: .25px;
+    line-height: 1;
 }
 
 .server-member__status {
@@ -711,6 +816,7 @@ article iframe:last-child {
 
 .server-members__list::-webkit-scrollbar-thumb {
     background: #494b58;
+    background: #454754;
     border-radius: 20px;
     transition: all .5s ease;
 }
@@ -720,6 +826,66 @@ article iframe:last-child {
     background: #515361;
 }
 
+
+/* ------------------------- 🌊🐬🌊 Page styles ------------------------- */
+.articles.curriculum {
+    padding-top: 0;
+}
+
+.articles.curriculum .content-table {
+    background-color: transparent;
+    max-height: 60.5vh;
+    padding: 0 2rem 0 0;
+}
+
+.articles.curriculum .content-table-list__header {
+    background-color: rgb(77 78 91);
+    background-color: rgb(82 83 96 / 90%);
+    background-color: rgb(82 83 96 / 100%);
+    /* background-color: rgb(82 85 96 / 85%); */
+    cursor: auto;
+    padding: 6px 16px;
+}
+
+.articles.curriculum .content-table-list__header h4 {
+    color: rgba(187, 190, 200, 0.9);
+}
+
+.articles.curriculum  .content-table-list__item:hover, 
+.articles.curriculum  .content-table-list__item:active {
+    background-color: rgb(60 63 73 / 95%);
+    /* background-color: rgb(57, 60, 71); */
+}
+
+.articles.curriculum .article-heading {
+    padding-bottom: 10px;
+    /* border-bottom: 0; */
+}
+
+.articles.curriculum .content-table-list__item {
+    color: #888e9d;
+}
+
+.articles.curriculum .content-table::-webkit-scrollbar-track {
+    background: rgba(38, 42, 43, 0.4);
+    border-radius: 20px;
+}
+
+.articles.curriculum .content-table::-webkit-scrollbar-thumb {
+    background: rgba(139, 189, 255, 0.8);
+    background: rgba(38, 42, 43, 1);
+    background: rgba(38, 40, 43, 0.8);
+    /* background: rgb(87, 91, 107); */
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+
+.articles.curriculum .content-table::-webkit-scrollbar-thumb:hover {
+    background: #9cc8ff;
+    background: rgba(30, 33, 34, 0.9);
+    background: rgba(38, 40, 43, 1);
+    background: rgba(36, 37, 40, 0.9);
+}
 
 /* ------------------------- 🌪️🐭🌪️ Utilities ------------------------- */
 
@@ -738,9 +904,10 @@ article iframe:last-child {
 .embox {
     background-color: #3b3f50;
     background-color: #363843;
-    color: #64c0c4;
-    padding: 1px 4px 2px;
     border-radius: 4px;
+    color: #64c0c4;
+    font-size: 13px;
+    padding: 1px 5px 2px;
 }
 
 .box-bracket {

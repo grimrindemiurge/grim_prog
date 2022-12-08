@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grimrin</title>
-    <link rel="icon" type="image/x-icon" href="img/skull.png">
+    <link rel="icon" type="image/x-icon" href="../img/skull.png">
 
     <!-- // bootstrap 5.2.2 CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     
     <script src="https://kit.fontawesome.com/81069a3921.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="curriculum">
     
     <div class="body-container">
         
@@ -32,7 +32,7 @@
 
                     <div class="user-control__user">
                         <span class="user-control__username">grimrindemiurge</span>
-                        <img class="user-control__user-img" src="img/skull.png">
+                        <img class="user-control__user-img" src="../img/skull.png">
                     </div>
 
                     <div class="user-control__menu">
@@ -141,7 +141,7 @@
                     <!-- server details -->
                     <div class="server-info__intro">
 
-                        <img class="server-info__icon" src="img/grimrin.png">
+                        <img class="server-info__icon" src="../img/grimrin.png">
                         
                         <h1 class="server-info__title">GRIMRIN</h1>
                         <h2 class="server-info__subtitle">Full Stack Web App Development</h2>
@@ -223,23 +223,23 @@
                     <div class="main-content-wrap">
 
                         <!-- (📌) ---~~* articles *~~--->
-                        <div class="articles">
+                        <div class="articles devnotes">
 
                             <!-- 🦄 ----- main content menu ------->
                             <div class="main-content-menu">
-                                <a href="index.html" class="main-content-menu__link">
-                                    <div class="main-content-menu__item active">
+                                <a href="../index.html" class="main-content-menu__link">
+                                    <div class="main-content-menu__item">
                                         <i class="fa-solid fa-book"></i>
                                         Course Content
                                     </div>
                                 </a>
-                                <a href="pages/devnotes.html" class="main-content-menu__link">
-                                    <div class="main-content-menu__item">
+                                <a href="devnotes.html" class="main-content-menu__link">
+                                    <div class="main-content-menu__item active">
                                         <i class="fa-solid fa-pen"></i>
                                         Dev Notes
                                     </div>
                                 </a>
-                                <a href="pages/curriculum.html" class="main-content-menu__link">
+                                <a href="curriculum.html" class="main-content-menu__link">
                                     <div class="main-content-menu__item">
                                         <i class="fa-solid fa-calendar-days"></i>
                                         Curriculum
@@ -247,118 +247,43 @@
                                 </a>
                             </div>
 
-                            <!-- 1.1 What is the internet? -->
-                            <!-- <article style="display: none;"> -->
-                            <article id="a1">
-                                <div class="article-heading">
-                                    <h2 class="article-heading-h1">What is the internet?</h2>
-                                    <h3 class="article-heading-h2">The fundamentals to understand web development</h3>
-                                </div>
-                                <div class="article-body">
+                            <div class="collapse show" id="articles-1">
 
-                                    <h4 class="article-heading-h3">What is the internet?</h4>
-                                    <p>&gt;&nbsp; Internet is a global computer network.</p>
-
-                                    <p class="how how-web-works">
-                                        <span class="embox">Client</span> (browser) <i>types: "www.google.com"</i> <i class="fa-solid fa-arrow-right"></i> <span class="embox">ISP</span> (Internet Service Provider) 
-                                        <span class="box-bracket">[</span><i class="fa-solid fa-arrow-right sub-arrow"></i> <span class="embox">DNS</span> (Domain Name System) <i>returns IP address: "142.251.36.46"</i> <span class="box-bracket">]</span> <i class="fa-solid fa-arrow-right"></i> <span class="embox">Internet Backbone</span> 
-                                        <i class="fa-solid fa-arrow-right-arrow-left"></i> <span class="embox">Server</span> sends requested files back to the Client (a giant library directly connected to the internet that is online 24/7).
-                                    </p>
-
-                                    <p class="mb0">Check IP address of a domain:</p>
-                                    <a href="https://www.nslookup.io/" target="_blank">
-                                        <img src="img_content/024.png" alt="">
-                                    </a>
-
-
-                                    <p>It's important to realize that the Internet is a global network of <span class="yellow">physical cables</span>, which can include copper telephone wires, TV cables,
-                                        and fiber optic cables. Even wireless connections like Wi-Fi and 3G/4G rely on these physical cables to access the Internet.
-                                    </p>
-
-                                    <p>When you visit a website, your computer sends a request over these wires to a <span class="yellow">server</span>. A server is where websites are stored, and it works
-                                        a lot like your computer's hard drive. Once the request arrives, the server retrieves the website and sends the correct data back to your computer.
-                                        What's amazing is that this all happens in just a few seconds!
-                                    </p>
-
-                                    <p>In other words, internet is a network of high-bandwidth fiber optic <a href="https://www.submarinecablemap.com/" target="blank">submarine cable system</a> 
-                                        <a class="collapse-handler" data-bs-toggle="collapse" href="#box1" role="button" aria-expanded="false" aria-controls="box1">
-                                            <i class="fa-solid fa-caret-down"></i>
-                                        </a>
-                                    </p>
-
-
-                                    <div class="collapse" id="box1">
-                                        <div class="collapse-content">
-                                            <p>Submarine cable system :</p>
-                                            <img src="img_content/m007.png">
-                                            <img src="img_content/m001.jpeg">
-                                            <img src="img_content/m002.png">
-                                            <img src="img_content/m010.jpeg">
-                                            <img src="img_content/m008.jpeg">
-                                            <img src="img_content/m009.jpeg">
-                                            <img src="img_content/m017.jpeg">
-                                            <img src="img_content/m011.webp">
-                                            <img src="img_content/m004.jpeg">
-                                            <iframe class="mb0" width="100%" height="305" src="https://www.youtube.com/embed/bkgvqC3M1Tw" title="There is a Reason Why Underwater Power Cables are So Expensive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                        </div>
+                                <article class="dark">
+                                    <div class="article-heading">
+                                        <h2 class="article-heading-h1">Dev notes</h2>
+                                        <h3 class="article-heading-h2"></h3>
                                     </div>
+                                    <div class="article-body">
 
+                                        <ul>
+                                            <li>Mainframe computer &ndash; a mainframe computer, informally called a mainframe or big iron, is a computer used primarily by large organizations for
+                                            critical applications like bulk data processing for tasks such as censuses, industry and consumer statistics, enterprise
+                                            resource planning, and large-scale transaction processing.
+                                            <img class="mt16" src="class_img/m019.webp" alt="">
+                                        </li>
+                                        </ul>
 
-                                    <p class="mt10">When something is in the <span class="teal">cloud</span>, it means it's stored on Internet servers instead of your computer's hard drive.</p>
-                                    <iframe width="100%" height="305" src="https://www.youtube.com/embed/4OO77HFcCUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    <iframe class="mb0" width="100%" height="305" src="https://www.youtube.com/embed/93-3zmVvCGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <br>
+                                        <p class="b mb8">Developer acronyms</p>
+                                        <ul>
+                                            <li>ISP &ndash; Internet Service Provider</li>
+                                            <li>URL &ndash; Uniform Resource Locator</li>
+                                            <li>TCP &ndash; Transmission Control Protocol</li>
+                                            <li>IP &ndash; Internet Protocol (a global addressing mechanism)</li>
+                                            <li>FTP &ndash; File Transfer Protocol</li>
+                                            <li>CDN &ndash; Content Delivery Network</li>
+                                            <li>NSFNET &ndash; National Science Foundation Network (a national “backbone” network originally connecting five supercomputing centres — at Princeton University, the University of Pittsburgh, the University of California, San Diego, the University of
+                                            Illinois, and Cornell University.)</li>
+                                            <li>SNSs &ndash; social networking sites</li>
+                                        </ul>
 
-                                    <div class="how">
-                                        <p class="mb025">
-                                            <span class="i display-block">Read more</span>
-                                            <ul>
-                                                <li><a href="https://edu.gcfglobal.org/en/internetbasics/" target="blank">Internet Basics</a> by GCF</li>
-                                                <li><a href="https://www.britannica.com/technology/Internet/" target="blank">Internet</a> and its related issues by Britannica</li>
-                                                <li><a href="https://www.cnet.com/topics/networking/buying-guide/" target="blank">How to buy a router</a></li>
-                                            </ul>
-                                        </p>
                                     </div>
-
-                                </div>
-                            </article>
-
-                            <!-- 1.2 How do websites work? -->
-                            <article id="a2">
-                                <div class="article-heading">
-                                    <h2 class="article-heading-h1">How do websites actually work?</h2>
-                                    <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3>
-                                </div>
-                                <div class="article-body">
-
-                                    <p>In this lession, we are going to understand HTML, CSS, and JavaScript and the roles browsers take to serve us files that make web pages.</p>
-
-                                    <div class="hb">
-                                        <p>
-                                            <span class="embox">HTML</span>&nbsp; is structure and content<br>
-                                            <span class="embox">CSS</span>&nbsp; is design and style<br>
-                                            <span class="embox">JavaScript</span>&nbsp; is functionality
-                                        </p>
-                                    </div>
-
-                                    <hr>
-
-                                    <h4 class="article-heading-h3">Web Browser</h4>
-
-                                    <p>In order to access a webpage, you need a web browser. So what is a web browser?</p>
-                                    <p>
-                                        A <span class="yellow">web browser</span> is application software for accessing websites. When a user requests a web page from a particular website,
-                                        the browser retrieves its files from a web server and then displays the page on the user's screen. A web browser is not
-                                        the same thing as a search engine, though the two are often confused.
-                                        Examples of web browsers are Chrome, Safari, and Firefox.
-                                    </p>
-                                    
-                                </div>
-                            </article>
+                                </article>
+                            </div>
 
                             <!-- (❗️) footnote --------------->
                             <p class="footnote">
-                                <span class="congrats-msg">Congratulations! <i class="fa-solid fa-rocket"></i></span>
-                                <span class="congrats-msg-line-2">You have reached the end of Full Stack Web Development masterclass.</span>
                                 Visit <a href="https://grimrin.com" target="_blank" rel="noopener noreferrer">grimrin.com</a> to discover more courses.
                             </p>
 
@@ -389,7 +314,7 @@
                                             <div class="server-members__list">
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/angelique.png">
+                                                    <img class="server-member__pfp" src="../img_member/angelique.png">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Angelique</span>
                                                         <div class="server-member__status busy"></div>
@@ -397,7 +322,7 @@
                                                 </div> 
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/daizelyn.png">
+                                                    <img class="server-member__pfp" src="../img_member/daizelyn.png">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Daizelyn</span>
                                                         <div class="server-member__status"></div>
@@ -405,7 +330,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/ailiseu.png">
+                                                    <img class="server-member__pfp" src="../img_member/ailiseu.png">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Ailiseu</span>
                                                         <div class="server-member__status busy"></div>
@@ -413,7 +338,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/chibiris.png">
+                                                    <img class="server-member__pfp" src="../img_member/chibiris.png">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">ChibiriS</span>
                                                         <div class="server-member__status"></div>
@@ -421,7 +346,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/soya.png">
+                                                    <img class="server-member__pfp" src="../img_member/soya.png">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Soya</span>
                                                         <div class="server-member__status idle"></div>
@@ -429,7 +354,7 @@
                                                 </div>
                                                 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/kiria.png">
+                                                    <img class="server-member__pfp" src="../img_member/kiria.png">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Kiria</span>
                                                         <div class="server-member__status"></div>
@@ -437,7 +362,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/hestia.jpeg">
+                                                    <img class="server-member__pfp" src="../img_member/hestia.jpeg">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Hestia</span>
                                                         <div class="server-member__status"></div>
@@ -445,7 +370,7 @@
                                                 </div>
                                                 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/lilibeth.png">
+                                                    <img class="server-member__pfp" src="../img_member/lilibeth.png">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Lilibeth</span>
                                                         <div class="server-member__status"></div>
@@ -453,7 +378,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/archie.png">
+                                                    <img class="server-member__pfp" src="../img_member/archie.png">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Archie</span>
                                                         <div class="server-member__status idle"></div>
@@ -461,7 +386,7 @@
                                                 </div>
                                                 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/stephanie.jpg">
+                                                    <img class="server-member__pfp" src="../img_member/stephanie.jpg">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Stephanie</span>
                                                         <div class="server-member__status busy"></div>
@@ -469,7 +394,7 @@
                                                 </div>
                                                 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/aelia.jpg">
+                                                    <img class="server-member__pfp" src="../img_member/aelia.jpg">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Aelia</span>
                                                         <div class="server-member__status"></div>
@@ -477,7 +402,7 @@
                                                 </div> 
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/tiffany.jpeg">
+                                                    <img class="server-member__pfp" src="../img_member/tiffany.jpeg">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Tiffany</span>
                                                         <div class="server-member__status"></div>
@@ -485,7 +410,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/brittany.jpeg">
+                                                    <img class="server-member__pfp" src="../img_member/brittany.jpeg">
                                                     <div class="server-member__details">
                                                         <span class="server-member__name">Brittany</span>
                                                         <div class="server-member__status busy"></div>
@@ -493,7 +418,7 @@
                                                 </div>
                                                 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/rose-anne.png">
+                                                    <img class="server-member__pfp" src="../img_member/rose-anne.png">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Rose-Anne</span>
                                                         <div class="server-member__status"></div>
@@ -501,7 +426,7 @@
                                                 </div>
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/louise.jpg">
+                                                    <img class="server-member__pfp" src="../img_member/louise.jpg">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Louise</span>
                                                         <div class="server-member__status idle"></div>
@@ -509,7 +434,7 @@
                                                 </div> 
 
                                                 <div class="server-member">
-                                                    <img class="server-member__pfp" src="img_member/isabella.jpeg">
+                                                    <img class="server-member__pfp" src="../img_member/isabella.jpeg">
                                                     <div class=" server-member__details">
                                                         <span class="server-member__name">Isabella</span>
                                                         <div class="server-member__status"></div>
