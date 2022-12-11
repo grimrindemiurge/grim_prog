@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    
+
     <script src="https://kit.fontawesome.com/81069a3921.js" crossorigin="anonymous"></script>
 </head>
 
@@ -119,7 +119,7 @@
                                     <div class="content-table-list__item">
                                         <span class="content-table-list__item-count">3</span>
                                         <span class="content-table-list__item-content">
-                                            HTML tags and elements
+                                            Introduction to HTML
                                         </span>
                                     </div>
                                 </a>
@@ -416,7 +416,117 @@
                                 </div>
                             </article>
 
-                            <!-- (❗️) footnote --------------->
+                            <!-- 1.3 How do websites work?HTML -->
+                            <article id="a3">
+                                <div class="article-heading">
+                                    <h2 class="article-heading-h1">Introduction to  HTML</h2>
+                                    <!-- <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3> -->
+                                </div>
+                                <div class="article-body">
+                                    <h4 class="article-heading-h3">
+                                        The Anatomy of HTML
+                                        <!-- <a href="https://en.wikipedia.org/wiki/Web_browser" class="src-link" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-solid fa-link"></i>
+                                        </a>
+                                        <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#box2" role="button">
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a> -->
+                                    </h4>
+
+                                    <h4 class="article-heading-h3"><i class="fa-solid fa-code h3icon"></i>HTML Tags</h4>
+                                    <div class="code mt0 mb0">
+                                        &lt;<span class="htmltag">h1</span>&gt;Heading level 1&lt;/<span class="htmltag">h1</span>&gt;<br>
+                                        &lt;<span class="htmltag">h2</span>&gt;Heading level 2&lt;/<span class="htmltag">h2</span>&gt;<br>
+                                        &lt;<span class="htmltag">h3</span>&gt;Heading level 3&lt;/<span class="htmltag">h3</span>&gt;<br>
+                                        &lt;<span class="htmltag">h4</span>&gt;Heading level 4&lt;/<span class="htmltag">h4</span>&gt;<br>
+                                        &lt;<span class="htmltag">h5</span>&gt;Heading level 5&lt;/<span class="htmltag">h5</span>&gt;<br>
+                                        &lt;<span class="htmltag">h6</span>&gt;Heading level 6&lt;/<span class="htmltag">h6</span>&gt;<br>
+                                    </div>
+                                    <hr>
+
+                                    <h4 class="article-heading-h3"><i class="fa-solid fa-file-code h3icon"></i>HTML Boilerplate</h4>
+                                    <div class="code mt0 mb16">
+                                        &lt;!DOCTYPE html&gt;<br>
+                                            &lt;<span class="htmltag">html</span> <span class="htmlattr">lang</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">en</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                            &lt;<span class="htmltag">head</span>&gt;<br>
+                                            <div class="indent-block">
+                                                &lt;<span class="htmltag">meta</span> <span class="htmlattr">charset</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">UTF-8</span><span class="htmlqt">&quot;</span>=&gt;<br>
+                                                <span class="indent"></span><span class="code-comment">&lt;!-- We no longer need to include the following line of code because Internet Explorer (IE) was deprecated on June 15, 2022 --&gt;<br></span>
+                                                &lt;<span class="htmltag">meta</span> <span class="htmlattr">http-equiv</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">X-UA-Compatible</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">IE=edge</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                &lt;<span class="htmltag">meta</span> <span class="htmlattr">name</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">viewport</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">width=device-width, initial-scale=1.0</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                &lt;<span class="htmltag">title</span>&gt;Document&lt;/<span class="htmltag">title</span>&gt;<br>
+                                            </div>
+                                            &lt;/<span class="htmltag">head</span>&gt;<br>
+                                            &lt;<span class="htmltag">body</span>&gt;<br>
+                                                
+                                            &lt;/<span class="htmltag">body</span>&gt;<br>
+                                            &lt;/<span class="htmltag">html</span>&gt;<br>
+                                    </div>
+                                    <p><span class="protip"><i class="fa-solid fa-lightbulb"></i>Pro tip</span> you can type <span class="c">!</span> (exclamation mark) and then press <span class="c">tab</span> on html file in VS Code and you will get latest HTML boilerplate.</p>
+
+                                    <h4 class="article-heading-h3 mt32"><i class="fa-solid fa-burger h3icon"></i>Build Your Own Burger</h4>
+                                    
+                                    <div class="cburger">
+                                        <img src="img_content/codeburger7.svg" alt="Codeburger" class="codeburger mt16">
+                                        <!-- <span class="c">CodeBurger</span> -->
+                                        <p class="codeburger-txt">&lt;Codeburger/&gt;</p>
+                                    </div>
+
+                                    <div class="fx">
+
+                                        <div class="w30 p8">
+                                            <img src="img_content/codeburger8.svg" alt="Codeburger">
+                                        </div>
+
+                                        <div class="w70 pl28">
+                                            <div class="code mt0 mb0">
+                                                &lt;!DOCTYPE html&gt;<br>
+                                                    &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                    <!-- <div class="indent-block">  -->
+                                                    <!-- </span><span class="code-comment">&lt;!-- header --&gt;</span><br> -->
+                                                    &lt;<span class="htmltag">lettuce</span>&gt;<br>
+                                                    <div class="indent-block">
+                                                        &lt;<span class="htmltag">pickledcucumber</span>&gt;<br>
+                                                        &lt;<span class="htmltag">onion</span>&gt;<br>
+                                                        &lt;<span class="htmltag">tomato</span>&gt;&lt;/<span class="htmltag">tomato</span>&gt;<br>
+                                                    </div>
+                                                    &lt;/<span class="htmltag">lettuce</span>&gt;<br>
+                                                    <!-- </span><span class="code-comment">&lt;!-- body --&gt;</span><br> -->
+                                                    &lt;<span class="htmltag">cheese</span>&gt;<br>
+                                                    <span class="indent"></span>&lt;<span class="htmltag">ketchup</span>&gt;&lt;/<span class="htmltag">ketchup</span>&gt;<br>
+                                                    <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;bacons&lt;/<span class="htmltag">meat</span>&gt;<br>
+                                                    <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;beefpatty&lt;/<span class="htmltag">meat</span>&gt;<br>
+                                                    &lt;/<span class="htmltag">cheese</span>&gt;<br>
+                                                    <!-- </div> -->
+                                                    &lt;/<span class="htmltag">bun</span>&gt;<br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- <div class="code mt0">
+                                        &lt;!DOCTYPE html&gt;<br>
+                                            &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">white-sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                            &lt;<span class="htmltag">lettuce</span>&gt;<br>
+                                            <div class="indent-block">
+                                                &lt;<span class="htmltag">pickledcucumber</span>&gt;<br>
+                                                &lt;<span class="htmltag">onion</span>&gt;<br>
+                                                &lt;<span class="htmltag">tomato</span>&gt;&lt;/<span class="htmltag">tomato</span>&gt;<br>
+                                            </div>
+                                            &lt;/<span class="htmltag">lettuce</span>&gt;<br>
+                                            &lt;<span class="htmltag">cheese</span>&gt;<br>
+                                            <span class="indent"></span>&lt;<span class="htmltag">ketchup</span>&gt;&lt;/<span class="htmltag">ketchup</span>&gt;<br>
+                                            <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;bacons&lt;/<span class="htmltag">meat</span>&gt;<br>
+                                            <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;beefpatty&lt;/<span class="htmltag">meat</span>&gt;<br>
+                                            &lt;/<span class="htmltag">cheese</span>&gt;<br>
+                                            &lt;/<span class="htmltag">bun</span>&gt;<br>
+                                    </div> -->
+                                    
+                                    
+                                </div>
+                            </article>
+
+
+                            <!-- footnote --------------->
                             <p class="footnote">
                                 <span class="congrats-msg">Congratulations! <i class="fa-solid fa-rocket"></i></span>
                                 <span class="congrats-msg-line-2">You have reached the end of Full Stack Web Development masterclass.</span>
