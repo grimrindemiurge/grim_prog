@@ -115,6 +115,19 @@
                                     </div>
                                 </a>
 
+                            </div>
+
+                        </div>
+
+                        <!-- (2) HTML -->
+                        <div class="content-table-list">
+
+                            <div class="content-table-list__header">
+                                <h4>HTML</h4>
+                            </div>
+
+                            <div class="content-table-list__items">
+
                                 <a href="#a3">
                                     <div class="content-table-list__item">
                                         <span class="content-table-list__item-count">3</span>
@@ -124,24 +137,11 @@
                                     </div>
                                 </a>
 
-                            </div>
-
-                        </div>
-
-                        <!-- (2) Introduction to CSS -->
-                        <div class="content-table-list">
-
-                            <div class="content-table-list__header">
-                                <h4>Introduction to CSS</h4>
-                            </div>
-
-                            <div class="content-table-list__items">
-
-                                <a href="#a1">
+                                <a href="#a4">
                                     <div class="content-table-list__item">
-                                        <span class="content-table-list__item-count">x</span>
+                                        <span class="content-table-list__item-count">4</span>
                                         <span class="content-table-list__item-content">
-                                            x
+                                            HTML Elements
                                         </span>
                                     </div>
                                 </a>
@@ -280,210 +280,244 @@
                                 </a>
                             </div>
 
-                            <!-- 1.1 What is the internet? -->
-                            <article id="a1">
+                            <!-- (📕) Section 1 Web Development Fundamentals -->
+                            <section>
+                                <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#web-dev-fundamentals" role="button">
+                                    <h3 class="article-section-title">
+                                        <span class="title-txt">Web Development Fundamentals</span>
+                                        <span class="title-icon"><i class="fa-solid fa-angle-down"></i></span>
+                                    </h3>
+                                </a>
+                                <div class="collapse" id="web-dev-fundamentals">
+                                    <!-- 1.1 What is the internet? -->
+                                    <article id="a1">
 
-                                <div class="article-heading">
-                                    <h2 class="article-heading-h1">What is the internet?</h2>
-                                    <h3 class="article-heading-h2">The fundamentals to understand web development</h3>
-                                </div>
-
-                                <div class="article-body">
-
-                                    <h4 class="article-heading-h3">What is the internet?</h4>
-                                    <p>&gt;&nbsp; Internet is a global computer network.</p>
-
-                                    <p class="how how-web-works p20-24">
-                                        <span class="embox">Client</span> (browser) <i>types: "www.google.com"</i> <i class="fa-solid fa-arrow-right"></i> <span class="embox">ISP</span> (Internet Service Provider) 
-                                        <span class="box-bracket">[</span><i class="fa-solid fa-arrow-right sub-arrow"></i> <span class="embox">DNS</span> (Domain Name System) <i>returns IP address: "142.251.36.46"</i> <span class="box-bracket">]</span> <i class="fa-solid fa-arrow-right"></i> <span class="embox">Internet Backbone</span> 
-                                        <i class="fa-solid fa-arrow-right-arrow-left"></i> <span class="embox">Server</span> sends requested files back to the Client (a giant library directly connected to the internet that is online 24/7).
-                                    </p>
-
-                                    <p class="mb8">Check IP address of a domain:</p>
-                                    <a href="https://www.nslookup.io/" target="_blank">
-                                        <img src="img_content/024.png" alt="">
-                                    </a>
-
-
-                                    <p>It's important to realize that the Internet is a global network of <span class="teallight">physical cables</span>, which can include copper telephone wires, TV cables,
-                                        and fiber optic cables. Even wireless connections like Wi-Fi and 3G/4G rely on these physical cables to access the Internet.
-                                    </p>
-
-                                    <p>When you visit a website, your computer sends a request over these wires to a <span class="teallight">server</span>. A server is where websites are stored, and it works
-                                        a lot like your computer's hard drive. Once the request arrives, the server retrieves the website and sends the correct data back to your computer.
-                                        What's amazing is that this all happens in just a few seconds!
-                                    </p>
-
-                                    <img src="img_content/m007.png">                             
-
-                                    <p>In other words, internet is a network of high-bandwidth fiber optic <a href="https://www.submarinecablemap.com/" target="blank">submarine cable system</a> 
-                                        <a class="collapse-handler" data-bs-toggle="collapse" href="#box1" role="button">
-                                            <i class="fa-solid fa-caret-down"></i>
-                                        </a>
-                                    </p>
-
-                                    <div class="collapse" id="box1">
-                                        <div class="collapse-content">
-                                            <p>Submarine cable system :</p>
-                                            <img src="img_content/m001.jpeg">
-                                            <img src="img_content/m002.png">
-                                            <img src="img_content/m010.jpeg">
-                                            <img src="img_content/m008.jpeg">
-                                            <img src="img_content/m009.jpeg">
-                                            <img src="img_content/m017.jpeg">
-                                            <img src="img_content/m011.webp">
-                                            <img src="img_content/m004.jpeg" class="mb0">
+                                        <div class="article-heading">
+                                            <h2 class="article-heading-h1">What is the internet?</h2>
+                                            <h3 class="article-heading-h2">The fundamentals to understand web development</h3>
                                         </div>
-                                    </div>
 
-                                </div>
-                            </article>
+                                        <div class="article-body">
 
-                            <!-- 1.2 How do websites work? -->
-                            <article id="a2">
-                                <div class="article-heading">
-                                    <h2 class="article-heading-h1">How do websites actually work?</h2>
-                                    <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3>
-                                </div>
-                                <div class="article-body">
+                                            <h4 class="article-heading-h3">What is the internet?</h4>
+                                            <p>&gt;&nbsp; Internet is a global computer network.</p>
 
-                                    <div class="hb p20-24">
-                                        <p>
-                                            <span class="embox">HTML</span>&nbsp; is structure and content<br>
-                                            <span class="embox">CSS</span>&nbsp; is style and design<br>
-                                            <span class="embox">JavaScript</span>&nbsp; is functionality
-                                        </p>
-                                    </div>
+                                            <p class="how how-web-works p20-24">
+                                                <span class="embox">Client</span> (browser) <i>types: "www.google.com"</i> <i class="fa-solid fa-arrow-right"></i> <span class="embox">ISP</span> (Internet Service Provider) 
+                                                <span class="box-bracket">[</span><i class="fa-solid fa-arrow-right sub-arrow"></i> <span class="embox">DNS</span> (Domain Name System) <i>returns IP address: "142.251.36.46"</i> <span class="box-bracket">]</span> <i class="fa-solid fa-arrow-right"></i> <span class="embox">Internet Backbone</span> 
+                                                <i class="fa-solid fa-arrow-right-arrow-left"></i> <span class="embox">Server</span> sends requested files back to the Client (a giant library directly connected to the internet that is online 24/7).
+                                            </p>
 
-                                    <h4 class="article-heading-h3">
-                                        What is web browser?
-                                        <a href="https://en.wikipedia.org/wiki/Web_browser" class="src-link" target="_blank" rel="noopener noreferrer">
-                                            <i class="fa-solid fa-link"></i>
-                                        </a>
-                                        <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#box2" role="button">
-                                            <i class="fa-solid fa-caret-down"></i>
-                                        </a>
-                                    </h4>
-                                    <p>A web browser is application software for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers are used on a range of devices, including desktops, laptops, tablets, and smartphones.</p>
-                                    
-                                    <div class="collapse" id="box2">
-                                        <div class="collapse-content">
-                                            <h4 class="article-heading-h3 mt0">Function</h4>
-                                            <p>The purpose of a web browser is to fetch content from the <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" rel="noopener noreferrer">World Wide Web</a> or from local storage and display it on a user's device. This process begins when the user inputs a Uniform Resource Locator (URL), such as <span class="c">https://en.wikipedia.org/</span>, into the browser. Virtually all URLs are retrieved using the Hypertext Transfer Protocol (HTTP), a set of rules for the transfer of data. If the URL uses the secure mode of HTTP (HTTPS), the connection between the browser and the web server is encrypted for the purposes of communications security and information privacy.</p>
-                                            <p>Web pages usually contain hyperlinks to other pages and resources. Each link contains a URL, and when it is clicked or tapped, the browser navigates to the new resource. Most browsers use an internal cache of web page resources to improve loading times for subsequent visits to the same page. The cache can store many items, such as large images, so they do not need to be downloaded from the server again. Cached items are usually only stored for as long as the web server stipulates in its HTTP response messages.</p>
-                                            
-                                            <h4 class="article-heading-h3 mt0">History</h4>
-                                            <div class="fxs mb16">
-                                                <div class="w60 mr24">
-                                                    <p>The first web browser, called WorldWideWeb, was created in 1990 by Sir Tim Berners-Lee. He then recruited Nicola Pellow to write the Line Mode Browser, which displayed web pages on dumb terminals. The Mosaic web browser was released in April 1993, and was later credited as the first web browser to find mainstream popularity. Its innovative graphical user interface made the World Wide Web easy to navigate and thus more accessible to the average person. This, in turn, sparked the Internet boom of the 1990s, when the Web grew at a very rapid rate.</p>
-                                                    <p>Marc Andreessen, the leader of the Mosaic team, started his own company, <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank" rel="noopener noreferrer">Netscape</a>, which released the Mosaic-influenced Netscape Navigator in 1994. Navigator quickly became the most popular browser.</p>
-                                                </div>
-                                                <div class="w40">
-                                                    <img src="img_content/c0011.jpeg" class="mb8" alt="Nicola Pellow and Tim Berners-Lee">
-                                                    <p class="ref">Left to right: Nicola Pellow and Tim Berners-Lee in 1992</p>
-                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Marc_Andreessen-9.jpg" class="mb8" alt="Marc Andreessen">
-                                                    <p class="ref">Marc Andreessen</p>
+                                            <p class="mb8">Check IP address of a domain:</p>
+                                            <a href="https://www.nslookup.io/" target="_blank">
+                                                <img src="img_content/024.png" alt="">
+                                            </a>
+
+
+                                            <p>It's important to realize that the Internet is a global network of <span class="teallight">physical cables</span>, which can include copper telephone wires, TV cables,
+                                                and fiber optic cables. Even wireless connections like Wi-Fi and 3G/4G rely on these physical cables to access the Internet.
+                                            </p>
+
+                                            <p>When you visit a website, your computer sends a request over these wires to a <span class="teallight">server</span>. A server is where websites are stored, and it works
+                                                a lot like your computer's hard drive. Once the request arrives, the server retrieves the website and sends the correct data back to your computer.
+                                                What's amazing is that this all happens in just a few seconds!
+                                            </p>
+
+                                            <img src="img_content/m007.png">                             
+
+                                            <p>In other words, internet is a network of high-bandwidth fiber optic <a href="https://www.submarinecablemap.com/" target="blank">submarine cable system</a> 
+                                                <a class="collapse-handler" data-bs-toggle="collapse" href="#box1" role="button">
+                                                    <i class="fa-solid fa-caret-down"></i>
+                                                </a>
+                                            </p>
+
+                                            <div class="collapse" id="box1">
+                                                <div class="collapse-content">
+                                                    <p>Submarine cable system :</p>
+                                                    <img src="img_content/m001.jpeg">
+                                                    <img src="img_content/m002.png">
+                                                    <img src="img_content/m010.jpeg">
+                                                    <img src="img_content/m008.jpeg">
+                                                    <img src="img_content/m009.jpeg">
+                                                    <img src="img_content/m017.jpeg">
+                                                    <img src="img_content/m011.webp">
+                                                    <img src="img_content/m004.jpeg" class="mb0">
                                                 </div>
                                             </div>
 
-                                            <p>Microsoft debuted Internet Explorer in 1995, leading to a browser war with Netscape. Within a few years, Microsoft gained a dominant position in the browser market for two reasons: it bundled Internet Explorer with Microsoft Windows, their popular operating system and did so as freeware with no restrictions on usage. The market share of Internet Explorer peaked at over 95% in the early 2000s. In 1998, Netscape launched what would become the Mozilla Foundation to create a new browser using the open-source software model. This work evolved into the Firefox browser, first released by Mozilla in 2004. Firefox's market share peaked at 32% in 2010. Apple released its Safari browser in 2003. Safari remains the dominant browser on Apple devices, though it did not become popular elsewhere.</p>
-                                            <p>Google debuted its Chrome browser in 2008, which steadily took market share from Internet Explorer and became the most popular browser in 2012. Chrome has remained dominant ever since. By 2015, Microsoft replaced Internet Explorer with Edge for the Windows 10 release. </p>        
-                                            <div class="how mb0 p24">
-                                                <p>Since the early 2000s, browsers have greatly expanded their HTML, CSS, JavaScript, and multimedia capabilities. 
-                                                    <ul>
-                                                        <li>One reason has been to enable more sophisticated websites, such as web apps. </li>
-                                                        <li>Another factor is the significant increase of broadband connectivity, which enables people to access data-intensive content, such as video streaming, that was not possible during the era of dial-up modems.</li>                                                     
-                                                    </ul>
+                                        </div>
+                                    </article>
+                                    <!-- 1.2 How do websites actually work? -->
+                                    <article id="a2">
+                                        <div class="article-heading">
+                                            <h2 class="article-heading-h1">How do websites actually work?</h2>
+                                            <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3>
+                                        </div>
+                                        <div class="article-body">
+
+                                            <div class="hb p20-24">
+                                                <p>
+                                                    <span class="embox">HTML</span>&nbsp; is structure and content<br>
+                                                    <span class="embox">CSS</span>&nbsp; is style and design<br>
+                                                    <span class="embox">JavaScript</span>&nbsp; is functionality
                                                 </p>
                                             </div>
-                                        </div>
-                                    </div>
 
-                                    <div class="how mb0">
-                                        <h4 class="article-heading-h3 mt0">
-                                            The first web browser
-                                            <a href="https://ajovomultja.hu/news/first-web-browser?language=en" class="src-link" target="_blank" rel="noopener noreferrer">
-                                                <i class="fa-solid fa-link"></i>
-                                            </a>
-                                        </h4>
-                                        <p>The world’s first web browser, the WorldWideWeb browser, was released at Christmas, on 25 December in 1990. It was developed by Tim Berners-Lee, who is best known as the inventor of the internet &ndash; the “world wide web”. The browser was subsequently renamed as Nexus in order to avoid confusing it with the internet or “www” and was then discontinued in January 1994 and was in use for 3 years.</p>
-                                        <p>Berners-Lee used the initial browser that only had text-based interface to navigate the web. Since the use of the internet was very much restricted in the early 1990s, Nexus did not become widely-spread.</p>
-                                        <img src="https://ajovomultja.hu/sites/default/files/content_images/article_nexus_1.jpg" alt="The WorldWideWeb (Nexus) Browser User Interface">
-                                        <img class="mb0" src="https://ajovomultja.hu/sites/default/files/content_images/article_www-browser_1.jpg" alt="The WorldWideWeb (Nexus) Browser">
-                                    </div>
+                                            <h4 class="article-heading-h3">
+                                                What is web browser?
+                                                <a href="https://en.wikipedia.org/wiki/Web_browser" class="src-link" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </a>
+                                                <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#box2" role="button">
+                                                    <i class="fa-solid fa-caret-down"></i>
+                                                </a>
+                                            </h4>
+                                            <p>A web browser is application software for accessing websites. When a user requests a web page from a particular website, the browser retrieves its files from a web server and then displays the page on the user's screen. Browsers are used on a range of devices, including desktops, laptops, tablets, and smartphones.</p>
+                                            
+                                            <div class="collapse" id="box2">
+                                                <div class="collapse-content">
+                                                    <h4 class="article-heading-h3 mt0">Function</h4>
+                                                    <p>The purpose of a web browser is to fetch content from the <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank" rel="noopener noreferrer">World Wide Web</a> or from local storage and display it on a user's device. This process begins when the user inputs a Uniform Resource Locator (URL), such as <span class="c">https://en.wikipedia.org/</span>, into the browser. Virtually all URLs are retrieved using the Hypertext Transfer Protocol (HTTP), a set of rules for the transfer of data. If the URL uses the secure mode of HTTP (HTTPS), the connection between the browser and the web server is encrypted for the purposes of communications security and information privacy.</p>
+                                                    <p>Web pages usually contain hyperlinks to other pages and resources. Each link contains a URL, and when it is clicked or tapped, the browser navigates to the new resource. Most browsers use an internal cache of web page resources to improve loading times for subsequent visits to the same page. The cache can store many items, such as large images, so they do not need to be downloaded from the server again. Cached items are usually only stored for as long as the web server stipulates in its HTTP response messages.</p>
+                                                    
+                                                    <h4 class="article-heading-h3 mt0">History</h4>
+                                                    <div class="fxs mb16">
+                                                        <div class="w60 mr24">
+                                                            <p>The first web browser, called WorldWideWeb, was created in 1990 by Sir Tim Berners-Lee. He then recruited Nicola Pellow to write the Line Mode Browser, which displayed web pages on dumb terminals. The Mosaic web browser was released in April 1993, and was later credited as the first web browser to find mainstream popularity. Its innovative graphical user interface made the World Wide Web easy to navigate and thus more accessible to the average person. This, in turn, sparked the Internet boom of the 1990s, when the Web grew at a very rapid rate.</p>
+                                                            <p>Marc Andreessen, the leader of the Mosaic team, started his own company, <a href="https://en.wikipedia.org/wiki/Netscape" target="_blank" rel="noopener noreferrer">Netscape</a>, which released the Mosaic-influenced Netscape Navigator in 1994. Navigator quickly became the most popular browser.</p>
+                                                        </div>
+                                                        <div class="w40">
+                                                            <img src="img_content/c0011.jpeg" class="mb8" alt="Nicola Pellow and Tim Berners-Lee">
+                                                            <p class="ref">Left to right: Nicola Pellow and Tim Berners-Lee in 1992</p>
+                                                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Marc_Andreessen-9.jpg" class="mb8" alt="Marc Andreessen">
+                                                            <p class="ref">Marc Andreessen</p>
+                                                        </div>
+                                                    </div>
 
-                                    
-                                </div>
-                            </article>
-
-                            <!-- 1.3 How do websites work?HTML -->
-                            <article id="a3">
-                                <div class="article-heading">
-                                    <h2 class="article-heading-h1">Introduction to  HTML</h2>
-                                    <!-- <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3> -->
-                                </div>
-                                <div class="article-body">
-                                    <h4 class="article-heading-h3">
-                                        The Anatomy of HTML
-                                        <!-- <a href="https://en.wikipedia.org/wiki/Web_browser" class="src-link" target="_blank" rel="noopener noreferrer">
-                                            <i class="fa-solid fa-link"></i>
-                                        </a>
-                                        <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#box2" role="button">
-                                            <i class="fa-solid fa-caret-down"></i>
-                                        </a> -->
-                                    </h4>
-
-                                    <h4 class="article-heading-h3"><i class="fa-solid fa-code h3icon"></i>HTML Tags</h4>
-                                    <div class="code mt0 mb0">
-                                        &lt;<span class="htmltag">h1</span>&gt;Heading level 1&lt;/<span class="htmltag">h1</span>&gt;<br>
-                                        &lt;<span class="htmltag">h2</span>&gt;Heading level 2&lt;/<span class="htmltag">h2</span>&gt;<br>
-                                        &lt;<span class="htmltag">h3</span>&gt;Heading level 3&lt;/<span class="htmltag">h3</span>&gt;<br>
-                                        &lt;<span class="htmltag">h4</span>&gt;Heading level 4&lt;/<span class="htmltag">h4</span>&gt;<br>
-                                        &lt;<span class="htmltag">h5</span>&gt;Heading level 5&lt;/<span class="htmltag">h5</span>&gt;<br>
-                                        &lt;<span class="htmltag">h6</span>&gt;Heading level 6&lt;/<span class="htmltag">h6</span>&gt;<br>
-                                    </div>
-                                    <hr>
-
-                                    <h4 class="article-heading-h3"><i class="fa-solid fa-file-code h3icon"></i>HTML Boilerplate</h4>
-                                    <div class="code mt0 mb16">
-                                        &lt;!DOCTYPE html&gt;<br>
-                                            &lt;<span class="htmltag">html</span> <span class="htmlattr">lang</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">en</span><span class="htmlqt">&quot;</span>&gt;<br>
-                                            &lt;<span class="htmltag">head</span>&gt;<br>
-                                            <div class="indent-block">
-                                                &lt;<span class="htmltag">meta</span> <span class="htmlattr">charset</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">UTF-8</span><span class="htmlqt">&quot;</span>=&gt;<br>
-                                                <span class="indent"></span><span class="code-comment">&lt;!-- We no longer need to include the following line of code because Internet Explorer (IE) was deprecated on June 15, 2022 --&gt;<br></span>
-                                                &lt;<span class="htmltag">meta</span> <span class="htmlattr">http-equiv</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">X-UA-Compatible</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">IE=edge</span><span class="htmlqt">&quot;</span>&gt;<br>
-                                                &lt;<span class="htmltag">meta</span> <span class="htmlattr">name</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">viewport</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">width=device-width, initial-scale=1.0</span><span class="htmlqt">&quot;</span>&gt;<br>
-                                                &lt;<span class="htmltag">title</span>&gt;Document&lt;/<span class="htmltag">title</span>&gt;<br>
+                                                    <p>Microsoft debuted Internet Explorer in 1995, leading to a browser war with Netscape. Within a few years, Microsoft gained a dominant position in the browser market for two reasons: it bundled Internet Explorer with Microsoft Windows, their popular operating system and did so as freeware with no restrictions on usage. The market share of Internet Explorer peaked at over 95% in the early 2000s. In 1998, Netscape launched what would become the Mozilla Foundation to create a new browser using the open-source software model. This work evolved into the Firefox browser, first released by Mozilla in 2004. Firefox's market share peaked at 32% in 2010. Apple released its Safari browser in 2003. Safari remains the dominant browser on Apple devices, though it did not become popular elsewhere.</p>
+                                                    <p>Google debuted its Chrome browser in 2008, which steadily took market share from Internet Explorer and became the most popular browser in 2012. Chrome has remained dominant ever since. By 2015, Microsoft replaced Internet Explorer with Edge for the Windows 10 release. </p>        
+                                                    <div class="how mb0 p24">
+                                                        <p>Since the early 2000s, browsers have greatly expanded their HTML, CSS, JavaScript, and multimedia capabilities. 
+                                                            <ul>
+                                                                <li>One reason has been to enable more sophisticated websites, such as web apps. </li>
+                                                                <li>Another factor is the significant increase of broadband connectivity, which enables people to access data-intensive content, such as video streaming, that was not possible during the era of dial-up modems.</li>                                                     
+                                                            </ul>
+                                                        </p>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            &lt;/<span class="htmltag">head</span>&gt;<br>
-                                            &lt;<span class="htmltag">body</span>&gt;<br>
-                                                
-                                            &lt;/<span class="htmltag">body</span>&gt;<br>
-                                            &lt;/<span class="htmltag">html</span>&gt;<br>
-                                    </div>
-                                    <p><span class="protip"><i class="fa-solid fa-lightbulb"></i>Pro tip</span> you can type <span class="c">!</span> (exclamation mark) and then press <span class="c">tab</span> on html file in VS Code and you will get latest HTML boilerplate.</p>
 
-                                    <h4 class="article-heading-h3 mt32"><i class="fa-solid fa-burger h3icon"></i>Build Your Own Burger</h4>
-                                    
-                                    <div class="cburger">
-                                        <img src="img_content/codeburger7.svg" alt="Codeburger" class="codeburger mt16">
-                                        <!-- <span class="c">CodeBurger</span> -->
-                                        <p class="codeburger-txt">&lt;Codeburger/&gt;</p>
-                                    </div>
+                                            <div class="how mb0">
+                                                <h4 class="article-heading-h3 mt0">
+                                                    The first web browser
+                                                    <a href="https://ajovomultja.hu/news/first-web-browser?language=en" class="src-link" target="_blank" rel="noopener noreferrer">
+                                                        <i class="fa-solid fa-link"></i>
+                                                    </a>
+                                                </h4>
+                                                <p>The world’s first web browser, the WorldWideWeb browser, was released at Christmas, on 25 December in 1990. It was developed by Tim Berners-Lee, who is best known as the inventor of the internet &ndash; the “world wide web”. The browser was subsequently renamed as Nexus in order to avoid confusing it with the internet or “www” and was then discontinued in January 1994 and was in use for 3 years.</p>
+                                                <p>Berners-Lee used the initial browser that only had text-based interface to navigate the web. Since the use of the internet was very much restricted in the early 1990s, Nexus did not become widely-spread.</p>
+                                                <img src="https://ajovomultja.hu/sites/default/files/content_images/article_nexus_1.jpg" alt="The WorldWideWeb (Nexus) Browser User Interface">
+                                                <img class="mb0" src="https://ajovomultja.hu/sites/default/files/content_images/article_www-browser_1.jpg" alt="The WorldWideWeb (Nexus) Browser">
+                                            </div>
 
-                                    <div class="fx">
-
-                                        <div class="w30 p8">
-                                            <img src="img_content/codeburger8.svg" alt="Codeburger">
+                                            
                                         </div>
+                                    </article>
+                                </div>
+                            </section>
 
-                                        <div class="w70 pl28">
-                                            <div class="code mt0 mb0">
+                            <!-- Section 2 HTML -->
+                            <section>
+                                <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#html" role="button">
+                                    <h3 class="article-section-title">
+                                        <span class="title-txt">HTML</span>
+                                        <span class="title-icon"><i class="fa-solid fa-angle-down"></i></span>
+                                    </h3>
+                                </a>
+                                <div class="collapse show" id="html">
+                                    <!-- 2.1 Introduction to  HTML -->
+                                    <article id="a3">
+                                        <div class="article-heading">
+                                            <h2 class="article-heading-h1">Introduction to  HTML</h2>
+                                            <!-- <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3> -->
+                                        </div>
+                                        <div class="article-body">
+                                            <h4 class="article-heading-h3">
+                                                The Anatomy of HTML
+                                                <!-- <a href="https://en.wikipedia.org/wiki/Web_browser" class="src-link" target="_blank" rel="noopener noreferrer">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </a>
+                                                <a class="collapse-handler collapsed" data-bs-toggle="collapse" href="#box2" role="button">
+                                                    <i class="fa-solid fa-caret-down"></i>
+                                                </a> -->
+                                            </h4>
+
+                                            <hr>
+
+                                            <h4 class="article-heading-h3"><i class="fa-solid fa-file-code h3icon"></i>HTML Boilerplate</h4>
+                                            <div class="code mt0 mb16">
                                                 &lt;!DOCTYPE html&gt;<br>
-                                                    &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
-                                                    <!-- <div class="indent-block">  -->
-                                                    <!-- </span><span class="code-comment">&lt;!-- header --&gt;</span><br> -->
+                                                    &lt;<span class="htmltag">html</span> <span class="htmlattr">lang</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">en</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                    &lt;<span class="htmltag">head</span>&gt;<br>
+                                                    <div class="indent-block">
+                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">charset</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">UTF-8</span><span class="htmlqt">&quot;</span>=&gt;<br>
+                                                        <span class="indent"></span><span class="code-comment">&lt;!-- We no longer need to include the following line of code because Internet Explorer (IE) was deprecated on June 15, 2022 --&gt;<br></span>
+                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">http-equiv</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">X-UA-Compatible</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">IE=edge</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">name</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">viewport</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">width=device-width, initial-scale=1.0</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                        &lt;<span class="htmltag">title</span>&gt;Document&lt;/<span class="htmltag">title</span>&gt;<br>
+                                                    </div>
+                                                    &lt;/<span class="htmltag">head</span>&gt;<br>
+                                                    &lt;<span class="htmltag">body</span>&gt;<br>
+                                                        
+                                                    &lt;/<span class="htmltag">body</span>&gt;<br>
+                                                    &lt;/<span class="htmltag">html</span>&gt;<br>
+                                            </div>
+                                            <p><span class="protip"><i class="fa-solid fa-lightbulb"></i>Pro tip</span> you can type <span class="c">!</span> (exclamation mark) and then press <span class="c">tab</span> on html file in VS Code and you will get latest HTML boilerplate.</p>
+
+                                            <h4 class="article-heading-h3 mt32"><i class="fa-solid fa-burger h3icon"></i>Build Your Own Burger</h4>
+                                            <div class="cburger">
+                                                <img src="img_content/codeburger7.svg" alt="Codeburger" class="codeburger mt16">
+                                                <p class="codeburger-txt">&lt;Codeburger/&gt;</p>
+                                            </div>
+                                            <div class="fx">
+
+                                                <div class="w30 p10">
+                                                    <img src="img_content/codeburger8.svg" alt="Codeburger" class="mb0">
+                                                </div>
+
+                                                <div class="w70 pl28">
+                                                    <div class="code mt0 mb0">
+                                                        &lt;!DOCTYPE html&gt;<br>
+                                                            &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                            <!-- <div class="indent-block">  -->
+                                                            <!-- </span><span class="code-comment">&lt;!-- header --&gt;</span><br> -->
+                                                            &lt;<span class="htmltag">lettuce</span>&gt;<br>
+                                                            <div class="indent-block">
+                                                                &lt;<span class="htmltag">pickledcucumber</span>&gt;<br>
+                                                                &lt;<span class="htmltag">onion</span>&gt;<br>
+                                                                &lt;<span class="htmltag">tomato</span>&gt;&lt;/<span class="htmltag">tomato</span>&gt;<br>
+                                                            </div>
+                                                            &lt;/<span class="htmltag">lettuce</span>&gt;<br>
+                                                            <!-- </span><span class="code-comment">&lt;!-- body --&gt;</span><br> -->
+                                                            &lt;<span class="htmltag">cheese</span>&gt;<br>
+                                                            <span class="indent"></span>&lt;<span class="htmltag">ketchup</span>&gt;&lt;/<span class="htmltag">ketchup</span>&gt;<br>
+                                                            <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;bacons&lt;/<span class="htmltag">meat</span>&gt;<br>
+                                                            <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;beefpatty&lt;/<span class="htmltag">meat</span>&gt;<br>
+                                                            &lt;/<span class="htmltag">cheese</span>&gt;<br>
+                                                            <!-- </div> -->
+                                                            &lt;/<span class="htmltag">bun</span>&gt;<br>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <hr>
+
+                                            <p>html tags vs elements vs attributes table</p>
+                                            <!-- <p>https://www.geeksforgeeks.org/tags-vs-elements-vs-attributes-in-html/#:~:text=HTML%20tags%20are%20used%20to,an%20HTML%20element%20in%20detail.&text=Whatever%20written%20within%20a%20HTML%20tag%20are%20HTML%20elements.</p> -->
+                                            
+                                            <!-- <div class="code mt0">
+                                                &lt;!DOCTYPE html&gt;<br>
+                                                    &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">white-sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
                                                     &lt;<span class="htmltag">lettuce</span>&gt;<br>
                                                     <div class="indent-block">
                                                         &lt;<span class="htmltag">pickledcucumber</span>&gt;<br>
@@ -491,40 +525,203 @@
                                                         &lt;<span class="htmltag">tomato</span>&gt;&lt;/<span class="htmltag">tomato</span>&gt;<br>
                                                     </div>
                                                     &lt;/<span class="htmltag">lettuce</span>&gt;<br>
-                                                    <!-- </span><span class="code-comment">&lt;!-- body --&gt;</span><br> -->
                                                     &lt;<span class="htmltag">cheese</span>&gt;<br>
                                                     <span class="indent"></span>&lt;<span class="htmltag">ketchup</span>&gt;&lt;/<span class="htmltag">ketchup</span>&gt;<br>
                                                     <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;bacons&lt;/<span class="htmltag">meat</span>&gt;<br>
                                                     <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;beefpatty&lt;/<span class="htmltag">meat</span>&gt;<br>
                                                     &lt;/<span class="htmltag">cheese</span>&gt;<br>
-                                                    <!-- </div> -->
                                                     &lt;/<span class="htmltag">bun</span>&gt;<br>
-                                            </div>
+                                            </div> -->
+                                            
+                                            
                                         </div>
-                                    </div>
-                                    
-                                    <!-- <div class="code mt0">
-                                        &lt;!DOCTYPE html&gt;<br>
-                                            &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">white-sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
-                                            &lt;<span class="htmltag">lettuce</span>&gt;<br>
-                                            <div class="indent-block">
-                                                &lt;<span class="htmltag">pickledcucumber</span>&gt;<br>
-                                                &lt;<span class="htmltag">onion</span>&gt;<br>
-                                                &lt;<span class="htmltag">tomato</span>&gt;&lt;/<span class="htmltag">tomato</span>&gt;<br>
-                                            </div>
-                                            &lt;/<span class="htmltag">lettuce</span>&gt;<br>
-                                            &lt;<span class="htmltag">cheese</span>&gt;<br>
-                                            <span class="indent"></span>&lt;<span class="htmltag">ketchup</span>&gt;&lt;/<span class="htmltag">ketchup</span>&gt;<br>
-                                            <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;bacons&lt;/<span class="htmltag">meat</span>&gt;<br>
-                                            <span class="indent"></span>&lt;<span class="htmltag">meat</span>&gt;beefpatty&lt;/<span class="htmltag">meat</span>&gt;<br>
-                                            &lt;/<span class="htmltag">cheese</span>&gt;<br>
-                                            &lt;/<span class="htmltag">bun</span>&gt;<br>
-                                    </div> -->
-                                    
-                                    
-                                </div>
-                            </article>
+                                    </article>
+                                    <!-- 2.1 HTML Elements -->
+                                    <article id="a4">
+                                        <div class="article-heading">
+                                            <h2 class="article-heading-h1">HTML Elements</h2>
+                                            <!-- <h3 class="article-heading-h2">What does HTML, CSS, and JavaScript do exactly?</h3> -->
+                                        </div>
+                                        <!-- <i class="fa-solid fa-code h3icon"></i> -->
 
+                                        <section id="htmlelement-h1h6">
+                                            <h4 class="article-heading-h3">
+                                                <span class="c">&lt;h1&gt;–&lt;h6&gt;</span>
+                                                The HTML Section Heading elements
+                                            </h4>
+                                            <p>The &lt;h1&gt; to &lt;h6&gt; HTML elements represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</p>
+                                            <div class="htmltag-heading">
+                                                <div class="code mt0 mb0">
+                                                    &lt;<span class="htmltag">h1</span>&gt;Heading level 1&lt;/<span class="htmltag">h1</span>&gt;<br>
+                                                    &lt;<span class="htmltag">h2</span>&gt;Heading level 2&lt;/<span class="htmltag">h2</span>&gt;<br>
+                                                    &lt;<span class="htmltag">h3</span>&gt;Heading level 3&lt;/<span class="htmltag">h3</span>&gt;<br>
+                                                    &lt;<span class="htmltag">h4</span>&gt;Heading level 4&lt;/<span class="htmltag">h4</span>&gt;<br>
+                                                    &lt;<span class="htmltag">h5</span>&gt;Heading level 5&lt;/<span class="htmltag">h5</span>&gt;<br>
+                                                    &lt;<span class="htmltag">h6</span>&gt;Heading level 6&lt;/<span class="htmltag">h6</span>&gt;<br>
+                                                </div>
+                                                <div class="code-output mb24">
+                                                    <h1>Heading level 1</h1>
+                                                    <h2>Heading level 2</h2>
+                                                    <h3>Heading level 3</h3>
+                                                    <h4>Heading level 4</h4>
+                                                    <h5>Heading level 5</h5>
+                                                    <h6 class="mb0">Heading level 6</h6>
+                                                </div>
+                                            </div>
+                                            <div class="collapse-content gtable-wrapper">
+                                                <div class="gtable">
+                                                    <div class="gtr">
+                                                        <div class="gth">
+                                                            <h5>Content categories</h5>
+                                                        </div>
+                                                        <div class="gtd">
+                                                            <p>Flow content, heading content, palpable content</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gtr">
+                                                        <div class="gth">
+                                                            <h5>Permitted content</h5>
+                                                        </div>
+                                                        <div class="gtd">
+                                                            <p>Phrasing content</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gtr">
+                                                        <div class="gth">
+                                                            <h5>Tag omission</h5>
+                                                        </div>
+                                                        <div class="gtd">
+                                                            <p>None, both the starting and ending tag are mandatory</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gtr">
+                                                        <div class="gth">
+                                                            <h5>Permitted parents</h5>
+                                                        </div>
+                                                        <div class="gtd">
+                                                            <p>Any element that accepts flow content</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="gtr">
+                                                        <div class="gth">
+                                                            <h5>DOM interface</h5>
+                                                        </div>
+                                                        <div class="gtd">
+                                                            <p class="ctxt">HTMLHeadingElement</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- <p>Element properties
+                                                <a class="collapse-handler" data-bs-toggle="collapse" href="#box3" role="button">
+                                                    <i class="fa-solid fa-caret-down"></i>
+                                                </a>
+                                            </p>
+                                            <div class="collapse show" id="box3">
+                                                <div class="collapse-content gtable-wrapper">
+                                                    <div class="gtable">
+                                                        <div class="gtr">
+                                                            <div class="gth">
+                                                                <h5>Content categories</h5>
+                                                            </div>
+                                                            <div class="gtd">
+                                                                <p>Flow content, heading content, palpable content</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gtr">
+                                                            <div class="gth">
+                                                                <h5>Permitted content</h5>
+                                                            </div>
+                                                            <div class="gtd">
+                                                                <p>Phrasing content</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gtr">
+                                                            <div class="gth">
+                                                                <h5>Tag omission</h5>
+                                                            </div>
+                                                            <div class="gtd">
+                                                                <p>None, both the starting and ending tag are mandatory</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gtr">
+                                                            <div class="gth">
+                                                                <h5>Permitted parents</h5>
+                                                            </div>
+                                                            <div class="gtd">
+                                                                <p>Any element that accepts flow content</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gtr">
+                                                            <div class="gth">
+                                                                <h5>DOM interface</h5>
+                                                            </div>
+                                                            <div class="gtd">
+                                                                <p class="ctxt">HTMLHeadingElement</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                            <h4 class="article-heading-h3 mt0">Usage</h4>
+                                            <ul class="mb16">
+                                                <li>Heading information can be used by user agents to construct a table of contents for a document automatically.</li>
+                                                <li>Do not use heading elements to resize text. Instead, use CSS <span class="c">font-size</span> property.</li>
+                                                <li>Do not skip heading levels: always start from &lt;h1&gt;, followed by &lt;h2&gt; and so on.</li>
+                                            </ul>
+                                            <p class="yellow">
+                                                <span class="note"><i class="fa-solid fa-triangle-exclamation"></i>Note</span>
+                                                avoid using multiple &lt;h1&gt; elements on one page
+                                            </p>
+                                            <p>While using multiple &lt;h1&gt; elements on one page is allowed by the HTML standard (as long as they are not nested), this is not considered a best practice. A page should generally have a single &lt;h1&gt; element that describes the content of the page (similar to the document's &lt;title&gt; element).</p>
+                                            <p>Prefer using only one &lt;h1&gt; per page and nest headings without skipping levels.</p>
+                                            <div class="htmltag-heading">
+                                                <h4 class="article-heading-h3 mt0">Do</h4>
+                                                <div class="code-do">
+                                                    <dic class="do">
+                                                        <i class="fa-solid fa-circle-check"></i>
+                                                    </dic>
+                                                    <div class="code mt0 mb0">
+                                                        &lt;<span class="htmltag">h1</span>&gt;Heading level 1&lt;/<span class="htmltag">h1</span>&gt;<br>
+                                                        &lt;<span class="htmltag">h2</span>&gt;Heading level 2&lt;/<span class="htmltag">h2</span>&gt;<br>
+                                                        &lt;<span class="htmltag">h3</span>&gt;Heading level 3&lt;/<span class="htmltag">h3</span>&gt;
+                                                    </div>
+                                                </div>
+                                                <h4 class="article-heading-h3">Don't</h4>
+                                                <div class="code-do">
+                                                    <dic class="do nt">
+                                                        <i class="fa-solid fa-circle-xmark"></i>
+                                                    </dic>
+                                                    <div class="code mt0 mb0">
+                                                        &lt;<span class="htmltag">h1</span>&gt;Heading level 1&lt;/<span class="htmltag">h1</span>&gt;<br>
+                                                        &lt;<span class="htmltag">h3</span>&gt;Heading level 2&lt;/<span class="htmltag">h3</span>&gt;<br>
+                                                        &lt;<span class="htmltag">h4</span>&gt;Heading level 3&lt;/<span class="htmltag">h4</span>&gt;
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+
+                                        <hr>
+
+                                        <section id="htmlelement-section">
+                                            <h4 class="article-heading-h3">
+                                                <span class="c">&lt;section&gt;</span>
+                                                The Generic Section element
+                                            </h4>
+                                        </section>
+
+                                        <hr>
+
+                                        <section id="htmlelement-">
+                                            <h4 class="article-heading-h3">
+                                                <span class="c">&lt;&gt;</span>
+                                                x
+                                            </h4>
+                                        </section>
+
+                                    </article>
+                                </div>
+                            </section>
 
                             <!-- footnote --------------->
                             <p class="footnote">
